@@ -34,6 +34,10 @@ buttons.forEach(button => {
             result += operand;
           } else if (operator === '-') {
             result -= operand;
+          } else if (operator === '*') {
+            result *= operand;
+          } else if (operator === '/') {
+            result /= operand;
           }
         }
 
